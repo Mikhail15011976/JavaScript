@@ -1,0 +1,91 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navigation-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation-item {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.left-column {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.news-list {
+  margin-bottom: 20px;
+}
+
+.news-item {
+  margin-bottom: 10px;
+}
+
+.currency-rates {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.weather-widget,
+.popular-links,
+.map-widget,
+.tv-program,
+.footer {
+  margin-bottom: 30px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.header-now {
+  font-weight: bold;
+  color: #333;
+}
+
+.header-link {
+  color: #0066cc;
+  cursor: pointer;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-date {
+  color: #666;
+  margin-left: auto;
+}
