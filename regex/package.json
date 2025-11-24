@@ -1,0 +1,21 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "main": "Validator.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^8.4.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.5.1"
+  }
+}
