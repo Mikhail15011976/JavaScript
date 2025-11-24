@@ -1,0 +1,22 @@
+{
+  "name": "mikhail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "author": "mikhail",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
