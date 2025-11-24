@@ -1,0 +1,32 @@
+.popover {
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 280px;
+    background-color: #fff;
+}
+
+.popover__title {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+.popover__text {
+    padding: 10px;
+    margin: 0;
+}
+
+.popover__arrow {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}

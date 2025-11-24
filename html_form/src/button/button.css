@@ -1,0 +1,11 @@
+.btn {
+    -webkit-tap-highlight-color: transparent;
+    margin: auto;
+    padding: 15px;
+    border: none;
+    font-size: inherit;
+    color: #fff;
+    background-color: #da3b4a;
+    cursor: pointer;
+    border-radius: 8px;
+}
