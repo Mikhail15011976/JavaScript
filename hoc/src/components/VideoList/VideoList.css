@@ -1,0 +1,21 @@
+.video-list-container {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .video-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .video-list-container {
+      flex-direction: column;
+    }
+    
+    .video-column {
+      gap: 20px;
+    }
+  }

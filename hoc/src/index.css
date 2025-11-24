@@ -1,0 +1,88 @@
+:root {
+  --primary: #2c3e50;
+  --secondary: #e74c3c;
+  --light: #ecf0f1;
+  --dark: #2c3e50;
+  --gray: #95a5a6;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-list-container {
+  display: flex;
+  gap: 30px;
+}
+
+.video-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.video-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  background: #000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.date {
+  padding: 12px 15px;
+  text-align: right;
+  font-size: 0.85em;
+  color: var(--gray);
+  background: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  color: var(--dark);
+  margin: 0 0 40px;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .video-list-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+}
