@@ -1,0 +1,13 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+      "jest": true
+    },
+    "rules": {
+    "no-tabs": "off",
+    "camelcase": "off",
+    "no-underscore-dangle": "off",
+    "no-plusplus": "off",
+    "eqeqeq": ["error", "smart"]
+    }
+  }
