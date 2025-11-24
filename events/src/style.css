@@ -1,0 +1,59 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.goblin {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#score p {
+  margin: 5px 0;
+}
+
+#missed {
+  color: red;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#result table {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#result table, #result th, #result td {
+  border: 1px solid #000;
+}
+
+#result th, #result td {
+  padding: 10px;
+  text-align: center;
+}
+
+#restart {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
