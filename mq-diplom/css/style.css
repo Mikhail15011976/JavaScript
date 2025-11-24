@@ -1,0 +1,16 @@
+.header {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(D:\Python\mq-diplom\images/banner.jpg)
+    
+}
+
+header__label {
+    font-size: 45px;
+    line-height: 75px;
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
